@@ -1,0 +1,26 @@
+
+
+h1{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.navbar-brand{
+    font-size: 1.3rem;
+}
+
+.container-fluid{
+    padding: 3% 12%;
+}
+
+.iphone{
+    clip-path: inset(3px);
+    border-radius: 73px;
+}
+
+#title{
+    background-color: #ff4c68;
+}
