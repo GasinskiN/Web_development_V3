@@ -1,25 +1,53 @@
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 h1{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 1.5;
-    color: black;
+    color: whitesmoke;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
 }
 
 .navbar-brand{
-    font-size: 1.3rem;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
 }
 
+.nav-item{
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+.button-title{
+    margin: 5% 3% 6% 0;
+}
 .container-fluid{
     padding: 3% 12%;
 }
 
-.iphone{
-    clip-path: inset(3px);
-    border-radius: 73px;
+
+.iphone {
+    margin: auto;
+    width: 50%;
+    clip-path: inset(0.5%);
+    border-radius: 16%/9%;
+
+  }
+.iphone-container{
+    text-align: center;
 }
+
 
 #title{
     background-color: #ff4c68;
