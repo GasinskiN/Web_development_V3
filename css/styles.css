@@ -30,7 +30,7 @@ h1{
 
 }
 .button-title{
-    margin: 5% 3% 6% 0;
+    margin: 5% 3% 5% 0;
 }
 .container-fluid{
     padding: 3% 12%;
@@ -38,13 +38,13 @@ h1{
 
 
 .iphone {
-    margin: auto;
     width: 50%;
-    clip-path: inset(0.5%);
-    border-radius: 16%/9%;
+    transform: rotate(25deg);
+    background-color: #ff4c68;
 
   }
 .iphone-container{
+    padding-top: 5%;
     text-align: center;
 }
 
