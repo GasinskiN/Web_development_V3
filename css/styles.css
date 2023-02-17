@@ -84,3 +84,34 @@ h3{
 }
 
 /* Testimonial section */
+
+h2{
+    font-size: 4em;
+    font-weight: 600;
+    padding: 2% 16% 3%;
+}
+
+#testimonials{
+    padding: 3% 12%;
+    background-color: #ef8172;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.cat-profile{
+    width: 15%;
+    border-radius: 50%/40%;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
