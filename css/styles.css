@@ -103,6 +103,11 @@ h2{
     width: 15%;
     border-radius: 50%/40%;
 }
+.lady-img{
+    width: 19%;
+    border-radius: 100%;
+    margin-bottom: 3.45%;
+}
 
 /* press section */
 #press{
