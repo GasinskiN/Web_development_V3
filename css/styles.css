@@ -120,3 +120,17 @@ h2{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* pricing section */
+
+#pricing{
+    padding: 1% 4%;
+    text-align: center;
+}
+.pricing-title{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 3%;
+    color: white;
+}
