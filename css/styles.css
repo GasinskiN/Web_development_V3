@@ -11,7 +11,9 @@ h1{
     line-height: 1.5;
     color: whitesmoke;
 }
-
+p{
+    color: #8f8f8f;
+}
 .navbar{
     padding-bottom: 4.5rem;
 }
@@ -171,4 +173,26 @@ h2{
 .tick-features{
     color: black;
     text-align: left;
+}
+
+/* call to action section */
+#cta{
+    padding: 5% 12%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h1{
+    font-size: 5em;
+    width: 80%;
+    display: inline-block;
+}
+
+
+/* Footer section */
+
+#footer{
+    margin: 5% 10% 2.5%;
+    text-align: center;
+    background-color: #fff;
 }
