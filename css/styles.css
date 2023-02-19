@@ -1,19 +1,22 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
 }
 
 /* title section */
 
-h1{
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
-    line-height: 1.5;
-    color: whitesmoke;
-}
-p{
-    color: #8f8f8f;
-}
 .navbar{
     padding-bottom: 4.5rem;
 }
@@ -34,11 +37,19 @@ p{
     font-size: 1.2rem;
 
 }
+
+.big-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+
 .button-title{
     margin: 5% 2.5% 5% 0;
 }
+
 .container-fluid{
-    padding: 3% 12%;
+    padding: 4% 12%;
 }
 
 .iphone {
@@ -54,7 +65,9 @@ p{
 #title{
     background-color: #ff4c68;
     padding-bottom: 10%;
+    text-align: left;
 }
+
 @media (max-width: 1350px) and (min-width: 1199px){
     .iphone{
         transform: rotate(15deg);
@@ -92,19 +105,10 @@ p{
 /* features section */
 
 #features-name{
-    padding: 100px 100px;
     background-color: white;
     position: relative;
 }
 
-.features{
-    text-align: center;
-}
-
-h3{
-    font-weight: 600;
-    font-size: 1.5rem;
-}
 .sayings-features{
     display: inline-block;
     width: 250px;
@@ -121,34 +125,33 @@ h3{
 
 /* Testimonial section */
 
-h2{
-    font-size: 4em;
-    font-weight: 600;
-    padding: 2% 16% 3%;
-}
-
 #testimonials{
     padding: 3% 12%;
     background-color: #ef8172;
-    text-align: center;
     display: block;
     color: white;
+}
+
+.testimonials-sayings{
+    font-size: 4em;
+    font-weight: 600;
+    padding: 2% 16% 3%;
 }
 
 .cat-profile{
     width: 15%;
     border-radius: 50%/40%;
 }
+
 .lady-img{
     width: 19%;
     border-radius: 100%;
-    margin-bottom: 3.45%;
+    margin-bottom: 3.5%;
 }
 
 /* press section */
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -161,15 +164,16 @@ h2{
 
 #pricing{
     padding: 1% 4%;
-    text-align: center;
 }
+
+.section-title{
+    font-size: 3.5rem;
+}
+
 .pricing-title{
-    /* background-color: #ff4c68; */
-    text-align: center;
-    margin-top: 10%;
-    padding-bottom: 3%;
-    
+    margin-top: 10%;    
 }
+
 .tick-features{
     color: black;
     text-align: left;
@@ -177,22 +181,11 @@ h2{
 
 /* call to action section */
 #cta{
-    padding: 5% 12%;
+    padding: 7% 5%;
     background-color: #ff4c68;
-    text-align: center;
 }
 
 .cta-h1{
-    font-size: 5em;
-    width: 80%;
+    width: 70%;
     display: inline-block;
-}
-
-
-/* Footer section */
-
-#footer{
-    margin: 5% 10% 2.5%;
-    text-align: center;
-    background-color: #fff;
 }
