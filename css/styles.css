@@ -33,24 +33,58 @@ h1{
 
 }
 .button-title{
-    margin: 5% 3% 5% 0;
+    margin: 5% 2.5% 5% 0;
 }
 .container-fluid{
     padding: 3% 12%;
 }
 
 .iphone {
-    width: 18%;
+    width: 20%;
     transform: rotate(25deg);
     background-color: #ff4c68;
     position: absolute;
-    right: 20%;
+    padding-top: 4%;
+    margin-left: 4%;
 
   }
 
 #title{
     background-color: #ff4c68;
-    padding-bottom: 260px;
+    padding-bottom: 10%;
+}
+@media (max-width: 1350px) and (min-width: 1199px){
+    .iphone{
+        transform: rotate(15deg);
+        margin-left: 0;
+        position: static;
+        width: 50%;
+        padding-top: 20%;
+    }
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .iphone{
+        width: 50%;
+        position: static;
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+
+    #title{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
 }
 
 /* features section */
@@ -133,4 +167,8 @@ h2{
     margin-top: 10%;
     padding-bottom: 3%;
     
+}
+.tick-features{
+    color: black;
+    text-align: left;
 }
